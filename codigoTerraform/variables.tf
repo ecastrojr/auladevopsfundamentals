@@ -1,6 +1,6 @@
 variable "location" {
   type = string
-  default = "westeurope"
+  default = "eastus"
 }
 
 variable "tags" {
@@ -8,7 +8,7 @@ variable "tags" {
   default = {
       "Ambiente" = "Desenvolvimento"
       "Integracao" = "Processo Devops"
-      "Compania" = "Aula Devops"
-      "Area" = "Marketing"
+      "Compania" = "Aula Devops DIO"
+      "Area" = "Design"
     }
 }
